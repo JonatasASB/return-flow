@@ -59,11 +59,8 @@ body {
   font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.05em;
-  color: var(--color-text-muted);
-}
-
-.logo-placeholder img {
   background-color: var(--color-primary-dark);
+  color: var(--color-text-muted);
 }
 
 .app-title {

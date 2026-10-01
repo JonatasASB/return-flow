@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fluxo de Atendimento — Retorno</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="app-header">
+    <div class="logo-placeholder" role="img" aria-label="Espaço reservado para logo">
+      <img class="logo-placeholder" alt="">
+    </div>
+    <h1 class="app-title">Fluxo de Atendimento de Retorno</h1>
+    <button type="button" id="btn-reiniciar-global" class="btn btn-reiniciar-global">Reiniciar atendimento</button>
+  </header>
+
+  <main class="app-main">
+    <section class="atendimento">
+      <div class="card card-fluxo" id="card-fluxo"></div>
+
+      <aside class="card card-avisos">
+        <h2>Atenção</h2>
+        <p><strong>Retorno com outro profissional indicado:</strong> se no sistema de agendamento aparecer um ícone de pessoa ao lado
+          do nome do médico, ele indicou que o retorno deve ser com OUTRO profissional — agende retorno "normal" com
+          esse profissional indicado. Se nem o indicado nem o da consulta original tiverem agenda disponível, ofertar
+          retorno relacionamento com outro profissional da mesma especialidade.</p>
+        <p><strong>Troca de modalidade:</strong> no sistema de agendamento, a seta azul indica retorno na mesma modalidade da consulta
+          original; a seta laranja indica que o médico direcionou para modalidade diferente (ex.: presencial ↔
+          teleconsulta). Se o paciente pedir a troca por conta própria, só é permitida com o mesmo médico da
+          consulta original, com agenda disponível na nova modalidade, e sempre dentro do prazo de 30 dias (não
+          vale para o prazo estendido de 60 dias). Sem agenda na nova modalidade dentro de 30 dias, ofereça a
+          modalidade original.</p>
+        <p><strong>Cirurgia:</strong> caso o paciente informe que tem direito a mais de 1 retorno porquê fez uma
+          cirurgia, direcione-o para a central de cirurgia — <strong>99 9 9999-9999</strong>.<span>contatar o supervisor
+            antes, para verificar se de fato o paciente fez a cirurgia</span></p>
+        <p><strong>Retorno adicional liberado pelo médico:</strong> verifique com a supervisão se existe a
+          indicação em sistema e acione o time interno para o agendamento.</p>
+        <p><strong>Mapeamento de retina:</strong> não é necessário agendar retorno de Oftalmologia no exame de
+          mapeamento de retina — o médico dá o
+          desfecho clínico logo após o exame. Porém se o pacinte deseja agendar retorno, o mesmo deverá ser ofertado</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <p>Material NÃO oficial </p>
+  </footer>
+
+  <script defer src="js/flow.js"></script>
+  <script defer src="js/resultado.js"></script>
+  <script defer src="js/engine.js"></script>
+  <script defer src="js/ui.js"></script>
+  <script defer src="js/main.js"></script>
+</body>
+
+</html>
